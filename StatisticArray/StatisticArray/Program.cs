@@ -18,11 +18,11 @@ namespace StatisticArray
             Console.WriteLine(OptionsManager.MinNum(arr));
             arr=OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
-<<<<<<< HEAD
+
             OptionsManager.PrintLess0(arr);
-=======
+
             OptionsManager.PrintGreater5(arr);
->>>>>>> task2
+
             // TO DO
         }
     }
