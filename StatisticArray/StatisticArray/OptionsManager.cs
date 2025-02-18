@@ -32,9 +32,15 @@ namespace StatisticArray
             Console.WriteLine(string.Join(", ",arr));
         }
 
+<<<<<<< HEAD
         public static void PrintLess0(int[] arr)
         {
             Console.WriteLine(string.Join(", ", arr.Where(x=>x<0).ToArray()));
+=======
+        public static void PrintGreater5(int[] arr)
+        {
+            Console.WriteLine(string.Join(", ", arr.Where(x=>x>5).ToArray()));
+>>>>>>> task2
         }
     }
 }
